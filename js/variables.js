@@ -22,3 +22,4 @@ console.log("Fast zuende ? " + bool);
 const MY_CONST = "Hallo";
 console.log(MY_CONST);
 
+

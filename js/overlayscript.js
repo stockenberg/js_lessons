@@ -11,6 +11,7 @@ login.onclick = function () {
     popup.style.display = "block";
 }
 
+
 overlay.onclick = function () {
     console.log(this);
     overlay.style.display = "none";
