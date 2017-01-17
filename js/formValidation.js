@@ -20,6 +20,7 @@ form.onsubmit = function(e) {
   console.dir(e);
   e.preventDefault();
 
+
     if(typeof firstname.value === "string" && firstname.value !== ""){
 
         var checkedResult = firstname.value.match(regexpString);
