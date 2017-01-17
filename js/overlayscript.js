@@ -19,7 +19,7 @@ overlay.onclick = function () {
 }
 
 // Attribute Way
-function toggleOverlay() {
+function openOverlay() {
     if(overlay.style.display == "none"){
         overlay.style.display = "block";
         popup.style.display = "block";
