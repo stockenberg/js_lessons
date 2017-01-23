@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        figure img{
+            width: 700px;
+            height: 300px;
+            background: red;
+        }
+        #slider{
+            height: 350px;
+        }
+
+        figure{
+            opacity: 0;
+            transition: opacity 2s;
+        }
+
+        figure.active{
+            opacity: 1;
+            transition: opacity 2s;
+        }
+
+        div#slider figure:nth-child(odd) img{
+            background: green;
+        }
+
+        div#slider{
+            position: relative;
+        }
+
+        div#slider figure{
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        }
+    </style>
+</head>
+<body>
+
+<div id="slider">
+    <figure class="active">
+        <img src="" title="Huuhuu" alt=""/>
+        <figcaption>Huuhuu</figcaption>
+    </figure>
+    <figure>
+        <img src="" title="HaaHaa" alt=""/>
+        <figcaption></figcaption>
+    </figure>
+    <figure>
+        <img src="" title="Heehee" alt=""/>
+        <figcaption></figcaption>
+    </figure>
+</div>
+
+<button id="prev">Zurück</button>
+<button id="next">Nächstes</button>
+
+
+<script src="slider2.js"></script>
+</body>
+</html>

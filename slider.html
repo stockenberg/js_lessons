@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #slider img, #slider2 img{
+            width: 70%;
+            height: 500px;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #slider, #slider2{
+            position: relative;
+            height: 500px;
+        }
+        #slider img:nth-child(odd), #slider2 img:nth-child(odd){
+            background: green;
+        }
+
+        #slider img:nth-child(even), #slider2 img:nth-child(even){
+            background: red;
+        }
+        #slider img, #slider2 img{
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        #slider img.active, #slider2 img.active{
+            opacity: 1;
+            transition: opacity 2s;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id="slider">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Eichh%C3%B6rnchen_(Sciurus_vulgaris).JPG" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kurre10.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg" alt=""/>
+        <img src="http://www.digitale-naturfotos.de/galerie/images_saeugetiere/big/mg374-eichhoernchen-sciurus-vulgaris.jpg" alt=""/>
+        <img src="http://media.einfachtierisch.de/thumbnail/600/0/media.einfachtierisch.de/images/2015/11/eichhoernchen-mit-nuss_Jarry_shutterstock_151795121.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Eichh%C3%B6rnchen_(Sciurus_vulgaris).JPG" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kurre10.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg" alt=""/>
+        <img src="http://www.digitale-naturfotos.de/galerie/images_saeugetiere/big/mg374-eichhoernchen-sciurus-vulgaris.jpg" alt=""/>
+        <img src="http://media.einfachtierisch.de/thumbnail/600/0/media.einfachtierisch.de/images/2015/11/eichhoernchen-mit-nuss_Jarry_shutterstock_151795121.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Eichh%C3%B6rnchen_(Sciurus_vulgaris).JPG" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kurre10.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg" alt=""/>
+        <img src="http://www.digitale-naturfotos.de/galerie/images_saeugetiere/big/mg374-eichhoernchen-sciurus-vulgaris.jpg" alt=""/>
+        <img src="http://media.einfachtierisch.de/thumbnail/600/0/media.einfachtierisch.de/images/2015/11/eichhoernchen-mit-nuss_Jarry_shutterstock_151795121.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Eichh%C3%B6rnchen_(Sciurus_vulgaris).JPG" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kurre10.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg" alt=""/>
+        <img src="http://www.digitale-naturfotos.de/galerie/images_saeugetiere/big/mg374-eichhoernchen-sciurus-vulgaris.jpg" alt=""/>
+        <img src="http://media.einfachtierisch.de/thumbnail/600/0/media.einfachtierisch.de/images/2015/11/eichhoernchen-mit-nuss_Jarry_shutterstock_151795121.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Eichh%C3%B6rnchen_(Sciurus_vulgaris).JPG" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Kurre10.jpg" alt=""/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg" alt=""/>
+        <img src="http://www.digitale-naturfotos.de/galerie/images_saeugetiere/big/mg374-eichhoernchen-sciurus-vulgaris.jpg" alt=""/>
+        <img src="http://media.einfachtierisch.de/thumbnail/600/0/media.einfachtierisch.de/images/2015/11/eichhoernchen-mit-nuss_Jarry_shutterstock_151795121.jpg" alt=""/>
+    </div>
+
+<a href="#" class="prev">Zurück</a>
+<a href="#" class="next">weiter</a>
+
+    <script src="js/slider.js"></script>
+</body>
+</html>

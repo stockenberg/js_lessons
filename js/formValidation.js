@@ -11,6 +11,9 @@ var message = form[3];
 var submit = form[4];
 var string = "test";
 
+console.dir(pizzas);
+
+
 var regexpString = /[a-zA-ZÄäÖöÜüß]/;
 
 console.dir(firstname);
