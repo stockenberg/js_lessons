@@ -1,6 +1,7 @@
 console.log(window);
 
 
+
 var xy = {
     property: "value",
     myFunc: function(){
